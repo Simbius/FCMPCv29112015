@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<view>
+  <property name='pageManagedBean' value='CargaTablaDefaultviewView' />
+  <property name='preferencesBean' value='CargaTabla' />
+  <design-time-attribute name='portlet' value='cargaTabla' />
+  <control component-type='com.webmethods.caf.faces.output.ErrorMessages' renderer-type='com.webmethods.caf.faces.output.ErrorMessages'>
+    <property name='id' value='messages' />
+  </control>
+  <control component-type='com.webmethods.caf.faces.command.CommandForm' renderer-type='com.webmethods.caf.faces.Form'>
+    <property name='defaultFocus' value='_first' />
+    <property name='id' value='defaultForm' />
+    <control component-type='com.webmethods.caf.faces.panel.PropertyGroup' renderer-type='com.webmethods.caf.faces.panel.PropertyGroup'>
+      <property name='id' value='propertyGroup3' />
+      <property name='label' value='Insert Tabla' />
+      <control component-type='com.webmethods.caf.faces.panel.PropertyLine' renderer-type='com.webmethods.caf.faces.panel.PropertyLine'>
+        <property name='id' value='propertyLine' />
+        <property name='label' value='Tabla' />
+        <control component-type='com.webmethods.caf.faces.SelectOneMenu' renderer-type='com.webmethods.caf.faces.Menu'>
+          <property name='disabledClass' value='disabled' />
+          <property name='enabledClass' value='enabled' />
+          <property name='id' value='htmlInputText' />
+          <property name='value' value='#{CargaTablaDefaultviewView.insertTabla.parameters.insertTabla.insertTabla.tabla}' />
+          <property name='width' value='input20' />
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem' />
+          </control>
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem1' />
+            <property name='itemValue' value='modeloProyecto' />
+          </control>
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem2' />
+            <property name='itemValue' value='marcoLogico' />
+          </control>
+        </control>
+      </control>
+      <control component-type='com.webmethods.caf.faces.panel.PropertyLine' renderer-type='com.webmethods.caf.faces.panel.PropertyLine'>
+        <property name='id' value='propertyLine1' />
+        <property name='label' value='Categoria' />
+        <control component-type='com.webmethods.caf.faces.SelectOneMenu' renderer-type='com.webmethods.caf.faces.Menu'>
+          <property name='disabledClass' value='disabled' />
+          <property name='enabledClass' value='enabled' />
+          <property name='id' value='htmlInputText1' />
+          <property name='value' value='#{CargaTablaDefaultviewView.insertTabla.parameters.insertTabla.insertTabla.categoria}' />
+          <property name='width' value='input20' />
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem3' />
+          </control>
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem4' />
+            <property name='itemValue' value='valores' />
+          </control>
+        </control>
+      </control>
+      <control component-type='com.webmethods.caf.faces.panel.PropertyLine' renderer-type='com.webmethods.caf.faces.panel.PropertyLine'>
+        <property name='id' value='propertyLine2' />
+        <property name='label' value='Campo' />
+        <control component-type='com.webmethods.caf.faces.SelectOneMenu' renderer-type='com.webmethods.caf.faces.Menu'>
+          <property name='disabledClass' value='disabled' />
+          <property name='enabledClass' value='enabled' />
+          <property name='id' value='htmlInputText2' />
+          <property name='value' value='#{CargaTablaDefaultviewView.insertTabla.parameters.insertTabla.insertTabla.campo}' />
+          <property name='width' value='input20' />
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem5' />
+          </control>
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem6' />
+            <property name='itemValue' value='estrategia' />
+          </control>
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem7' />
+            <property name='itemValue' value='MV' />
+          </control>
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem8' />
+            <property name='itemValue' value='objetivo' />
+          </control>
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem9' />
+            <property name='itemValue' value='objetivos' />
+          </control>
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem10' />
+            <property name='itemValue' value='tipopar' />
+          </control>
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem11' />
+            <property name='itemValue' value='tipact' />
+          </control>
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem12' />
+            <property name='itemValue' value='categoria' />
+          </control>
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem13' />
+            <property name='itemValue' value='nivel' />
+          </control>
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem14' />
+            <property name='itemValue' value='area' />
+          </control>
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem15' />
+            <property name='itemValue' value='componente' />
+          </control>
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem16' />
+            <property name='itemValue' value='comuna' />
+          </control>
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem17' />
+            <property name='itemValue' value='encargado' />
+          </control>
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem18' />
+            <property name='itemValue' value='planta' />
+          </control>
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem19' />
+            <property name='itemValue' value='establecimiento' />
+          </control>
+          <control component-type='javax.faces.SelectItem' renderer-type=''>
+            <property name='id' value='selectItem20' />
+            <property name='itemValue' value='profesionales' />
+          </control>
+        </control>
+      </control>
+      <control component-type='com.webmethods.caf.faces.panel.PropertyLine' renderer-type='com.webmethods.caf.faces.panel.PropertyLine'>
+        <property name='id' value='propertyLine3' />
+        <property name='label' value='Valor' />
+        <control component-type='javax.faces.HtmlInputText' renderer-type='com.webmethods.caf.faces.Text'>
+          <property name='id' value='htmlInputText3' />
+          <property name='value' value='#{CargaTablaDefaultviewView.insertTabla.parameters.insertTabla.insertTabla.valor}' />
+          <property name='width' value='input20' />
+        </control>
+      </control>
+    </control>
+    <control component-type='com.webmethods.caf.faces.panel.PropertyGroup' renderer-type='com.webmethods.caf.faces.panel.PropertyGroup'>
+      <property name='id' value='propertyGroup5' />
+      <property name='label' value='Insert Tabla Response' />
+      <control component-type='com.webmethods.caf.faces.panel.PropertyLine' renderer-type='com.webmethods.caf.faces.panel.PropertyLine'>
+        <property name='id' value='propertyLine4' />
+        <property name='label' value='Resultado' />
+        <control component-type='javax.faces.HtmlOutputText' renderer-type='com.webmethods.caf.faces.Text'>
+          <property name='id' value='htmlOutputText' />
+          <property name='raw' value='true' />
+          <property name='value' value='#{CargaTablaDefaultviewView.insertTabla.result.insertTablaResponse.resultado}' />
+        </control>
+        <control component-type='com.webmethods.caf.faces.command.async.Button' renderer-type='com.webmethods.caf.faces.command.async.Button'>
+          <property name='action' value='#{CargaTablaDefaultviewView.insertTabla.refresh}' signature='java.lang.String action()' />
+          <property name='id' value='button' />
+          <property name='value' value='Refresh' />
+        </control>
+      </control>
+    </control>
+  </control>
+</view>

@@ -1,0 +1,19 @@
+<CONFIG xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="http://www.webmethods.com/schema/xmlImport.xsd"
+>
+	<CONTEXT alias="B0FA22E3-A82F-017B-F5EF-774FDB43D516.task.app">
+		<folder name="Completa Datos Proyecto Details" description="Completa Datos Proyecto Details" alias="B0FA22E3-A82F-017B-F5EF-774FDB43D516.task.app.details.page" isTaskFolder="false">
+            <page>
+            	<row>
+            		<column>
+            			<generaproyectotasks___completadatosproyectooverview name="Task View" alias="B0FA22E3-A82F-017B-F5EF-774FDB43D516.task.app.details.portlet">
+                            <layout name="titlebar" value="false"/>
+                            <layout name="border" value="false"/>            			
+            			</generaproyectotasks___completadatosproyectooverview> 
+                    </column>
+                </row>
+                <hobos/>
+            </page>
+        </folder>
+    </CONTEXT>
+</CONFIG>
