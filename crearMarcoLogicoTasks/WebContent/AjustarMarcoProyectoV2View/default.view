@@ -7,7 +7,7 @@
   <design-time-attribute name='portlet' value='AjustarMarcoProyectoV2View' />
   <control component-type='com.webmethods.caf.faces.component.portlet.PortletInclude' renderer-type='com.webmethods.caf.faces.render.html.output.PortletIncludeRenderer'>
     <property name='id' value='portletInclude' />
-    <property name='portlet' value='/meta/default/fcmpcportales___generamarcologico/0000010916' />
+    <property name='portlet' value='/meta/default/fcmpcportales___generamarcologico/0000010594' />
     <control component-type='javax.faces.Parameter' renderer-type=''>
       <property name='name' value='tipoProyecto' />
       <property name='value' value='#{AjustarMarcoProyectoV2ViewDefaultviewView.ajustarMarcoProyectoV2.taskData.publicaMarcoV1.marcoLogicoV1.nombrePro}' />

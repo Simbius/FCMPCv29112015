@@ -11,7 +11,7 @@
     <url-pattern>/faces/*</url-pattern>
   </servlet-mapping>
   <context-param>
-    <description>State saving method: &quot;client&quot; or &quot;server&quot; (= default) See JSF Specification 2.5.2</description>
+    <description>State saving method: "client" or "server" (= default) See JSF Specification 2.5.2</description>
     <param-name>javax.faces.STATE_SAVING_METHOD</param-name>
     <param-value>client</param-value>
   </context-param>
@@ -38,18 +38,18 @@
     <filter-name>Multipart Filter</filter-name>
     <filter-class>com.webmethods.caf.faces.servlet.MultipartFilter</filter-class>
     <init-param>
-      <description>Max allowed upload size in bytes (defaults to &quot;10 MB&quot;).</description>
+      <description>Max allowed upload size in bytes (defaults to "10 MB").</description>
       <param-name>MAX_UPLOAD_DISK_SIZE</param-name>
       <param-value>10 MB</param-value>
     </init-param>
     <init-param>
-      <description>Max upload size cached in memory (defaults to &quot;100 KB&quot;).</description>
+      <description>Max upload size cached in memory (defaults to "100 KB").</description>
       <param-name>MAX_UPLOAD_RAM_SIZE</param-name>
       <param-value>100 KB</param-value>
     </init-param>
     <init-param>
       <description>Path to temporary directory in which to store uploads
-that are too large to keep in memory (defaults to &quot;temp&quot;).</description>
+that are too large to keep in memory (defaults to "temp").</description>
       <param-name>TEMP_UPLOAD_DIR_PATH</param-name>
       <param-value>temp</param-value>
     </init-param>
@@ -103,7 +103,7 @@ that are too large to keep in memory (defaults to &quot;temp&quot;).</descriptio
     <description/>
     <env-entry-name>wsclient-endpointAddress</env-entry-name>
     <env-entry-type>java.lang.String</env-entry-type>
-    <env-entry-value></env-entry-value>
+    <env-entry-value/>
   </env-entry>
   <env-entry>
     <description/>
